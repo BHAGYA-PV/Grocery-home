@@ -207,7 +207,6 @@
 }
 #pineapple-card{
     background-color: rgba(119, 125, 130, 0.369);
-    height: 300px ;
     width: 95% !important;
 }
 
@@ -618,9 +617,6 @@
     padding-top: 4rem;
 }
 
-#pineapple-card{
-    height: 350px !important;
-}
 .today-deals .first-div{
     width: 100% !important;
 }
