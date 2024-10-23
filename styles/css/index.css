@@ -6,6 +6,9 @@ header{
     background-color: #F8C519;
     padding: 1rem 0rem;
 }
+#signup-link{
+    color: rgba(27, 128, 87, 1) !important;
+}
 #icon-sec, #icons{
     display: flex;
     justify-content: flex-end;
@@ -48,7 +51,7 @@ nav{
 .dropdown_with_search{
     /* display: flex;
     flex-direction: row; */
-    width: 600px;
+    width: 100%;
     margin-top: 2rem;
 }
 
@@ -62,8 +65,8 @@ select, input{
 
 select{
     border-radius: 10px 0px 0px 10px;
-    width: 200px;
-    height: 40px;
+    width: 180px;
+    height: 45px;
 }
 
 .fa-solid{
@@ -72,11 +75,14 @@ select{
 
 .container_search input{
     border-radius: 0px 10px 10px 0px;
-    width: 400px;
-    height: 40px;
+    width: 350px;
+    height: 45px;
     padding-right: 2rem !important;
 }
 
+.container_search input::placeholder{
+    color: #eee;
+}
 .container_search{
     display: flex;
     align-items: center;
