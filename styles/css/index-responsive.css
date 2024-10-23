@@ -129,7 +129,9 @@
     padding: .5rem 1rem !important;
     font-size: 12px !important;
 }
-
+.today-deals .first-div{
+    margin-bottom: 1rem !important;
+}
 .card{
     width: 80%;
     display: block !important;
@@ -529,7 +531,7 @@
 
 
 
-@media only screen and  (max-width:400px){
+@media only screen and  (max-width:480px){
  
     .logo{
         height: 40px !important;
@@ -585,7 +587,7 @@
 
 .img-background , .img-background2{
     width: 80%;
-
+    display: none;
 }
 
 .fifth-sec .center-div-countdown{
@@ -595,7 +597,6 @@
 
 .fifth-sec .card{
     width: 100%;
-    height: 150px;
     padding:  0px;
     margin: 0px;
 }
@@ -613,8 +614,12 @@
     margin-bottom: 1rem !important;
 }
 
+#pineapple-card{
+    height: 340px !important;
+}
+
 #pineapple-card img{
-    padding-top: 4rem;
+    padding-top: 2rem;
 }
 
 .today-deals .first-div{
