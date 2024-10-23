@@ -267,7 +267,11 @@ figure{
     padding: 4rem 0rem;
     background-color: aliceblue;
 }
+.featured-card .heart{
 
+    padding: 0px !important;
+    margin: 0px !important;
+}
 .fourth-sec button{
     background-color: rgba(27, 128, 87, 1);
     padding: 2px 1.5rem;

@@ -129,8 +129,9 @@
     padding: .5rem 1rem !important;
     font-size: 12px !important;
 }
+
 .card{
-    width: 60%;
+    width: 80%;
     display: block !important;
     margin-left: auto !important;
     margin-right: auto !important;
@@ -142,6 +143,7 @@
     margin-right: auto !important;
 
 }
+
 
 .fourth-sec h6 , .fourth-sec h1{
     text-align: center;
