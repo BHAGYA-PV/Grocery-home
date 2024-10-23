@@ -1,0 +1,640 @@
+html,body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: #F8C519;
+    padding: 1rem 0rem;
+}
+#icon-sec, #icons{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -4rem;
+    margin-left: auto;
+}
+.inline-icons{
+    display: flex;
+}
+
+.icon-round, .icon-round a{
+    height: 30px;
+    width: 30px;
+    background-color: rgba(27, 128, 87, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #efc127;
+    text-decoration: none;
+}
+
+
+/* /............................... */
+
+nav{
+    background-color: rgba(27, 128, 87, 1);
+    color: rgba(255, 255, 255, 0.798);
+}
+.sec-row .nav-div .navbar-nav{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.nav-item a{
+    color: rgba(255, 255, 255, 0.798);
+
+}
+
+.dropdown_with_search{
+    /* display: flex;
+    flex-direction: row; */
+    width: 600px;
+    margin-top: 2rem;
+}
+
+
+
+select, input{
+    background-color: rgba(65, 182, 135, 0.579);
+    border: none;
+    color: white;
+}
+
+select{
+    border-radius: 10px 0px 0px 10px;
+    width: 200px;
+    height: 40px;
+}
+
+.fa-solid{
+    color: rgba(255, 255, 255, 0.772);
+}
+
+.container_search input{
+    border-radius: 0px 10px 10px 0px;
+    width: 400px;
+    height: 40px;
+    padding-right: 2rem !important;
+}
+
+.container_search{
+    display: flex;
+    align-items: center;
+}
+
+.search-btn{
+    margin-left: -2rem;
+    border: none;
+    outline: none;
+    background: none;
+}
+/* /............................... */
+.hero{
+    background-color: aliceblue;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+.round,.round-l{
+    background-color: #F8C519;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.round-l{
+    margin-left: -0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+#plus{
+    color: black;
+}
+
+.inline-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.inline-div a, .inline-div h6{
+    padding-left: 2rem;
+}
+.hero h1{
+    padding-top: 3rem;
+    padding-left: 2rem;
+    font-weight: bolder;
+}
+
+.h1-color{
+    color: rgba(27, 128, 87, 1);
+}
+
+.shop-btn{
+    background-color: rgba(27, 128, 87, 1);
+    padding: 0.5rem 2rem;
+    color: rgba(255, 255, 255, 0.791);
+    border-radius: 40px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.inline-div a{
+    color: black;
+    font-weight: 700;
+}
+
+.block-div{
+    display: block;
+    padding-left: 2rem;
+}
+
+.block-div h5{
+    font-weight: 700;
+}
+
+.block-div p{
+    font-size: smaller;
+}
+
+#hero-img{
+    position: absolute;
+    max-height: 480px;
+}
+
+/* .............................................................. */
+
+.sec-section{
+    padding-top: 4rem;
+    padding-bottom: 7rem;
+}
+
+.sec-section h6 ,.sec-section h1{
+    text-align: center;
+}
+
+.fig-img-div{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    padding: 2rem;
+    background-color: aliceblue;
+}
+
+#catogories{
+    padding-top: 3rem;
+}
+
+/* ..................................................... */
+
+.third-sec{
+    padding: 3rem 0rem;
+}
+
+.third-sec-first-div , .third-sec-sec-div{
+    border-radius: 30px;
+    padding: 2rem 0rem 2rem 1rem;
+    width: 90%;
+}
+
+.third-sec-sec-div{
+    background-color: #F8C519;
+}
+
+.ylow-div{
+    background-color: #F8C519;
+    border-radius: 50px;
+    width: fit-content;
+    font-size: smaller;
+    font-weight: bold;
+    padding: 5px 20px;
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.ylow-div2{
+    background-color: #fcdd75;
+    border-radius: 50px;
+    width: fit-content;
+    font-size: smaller;
+    font-weight: bold;
+    padding: 5px 20px;
+}
+
+.inner-div p{
+    font-size: small;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+.inner-div h1{
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 1rem;
+}
+
+.shop-now{
+    background-color: rgba(27, 128, 87, 1);
+    padding: 0.5rem 2rem;
+    color: rgba(255, 255, 255, 0.791);
+    border-radius: 40px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+/* ..................................................... */
+
+.fourth-sec{
+    padding: 4rem 0rem;
+    background-color: aliceblue;
+}
+
+.fourth-sec button{
+    background-color: rgba(27, 128, 87, 1);
+    padding: 2px 1.5rem;
+    color: rgba(255, 255, 255, 0.791);
+    border-radius: 40px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;   
+}
+.card-group{
+    flex-wrap: wrap !important;
+}
+
+.card{
+    border: none !important;
+    margin-top: 5rem;
+    margin: 1.5rem;
+    padding: 1rem;
+    overflow: hidden;
+    border-radius: 20px !important;
+}
+.card img{
+    max-width: 180px;
+    max-height: 150px;
+    height: 150px;
+}
+
+
+.fourth-sec .add{
+    background-color: rgba(27, 128, 87, 1);
+    padding: 2px 1rem;
+    color: rgba(255, 255, 255, 0.791);
+    border-radius: 40px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;  
+}
+
+.line-through{
+    text-decoration: line-through;
+    padding-left: 10px;
+}
+
+.price{
+    font-size: smaller;
+}
+
+.discount{
+    background-color: rgba(27, 128, 87, 1);
+    border-radius: 0px 10px 10px 0px;
+    color: white;
+    font-size: smaller;
+    padding: 0px 10px;
+}
+/* ..................................................... */
+
+
+.fifth-sec{
+    padding-top: 5rem;
+}
+
+.img-background{
+    background-image: url("/assets/women-with-vegs.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    padding: 1rem 10px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-background2{
+    background-image: url("/assets/women-with\ basket.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    padding: 1rem 10px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-border, .inner-border2{
+    border-radius: 30px;
+    border: 1px solid white;
+    width: 90%;
+    height: 90%;
+}
+
+.fifth-sec .center-div-countdown{
+    background-color: aliceblue;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    height: 500px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.fifth-sec .center-div-countdown H1{
+    margin-top: -3rem;
+}
+
+.fifth-sec .center-div-countdown .card{
+    background-color: aliceblue;
+}
+
+.display-4{
+    font-size: medium;
+    font-weight: 600 !important;
+}
+
+.center-div-countdown button{
+    background-color: rgba(27, 128, 87, 1);
+    padding: 0.5rem 2rem;
+    color: rgba(255, 255, 255, 0.791);
+    border-radius: 40px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.center-div-countdown img{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#top-orange{
+    margin-top: -3rem;
+    margin-left: -38rem;
+}
+
+#bottom-orange{
+    margin-top: -6rem;
+    margin-right: -38rem;
+}
+
+
+
+
+/* .......................................................... */
+.wishlist{
+    border: none;
+    background: none !important;
+    padding: 0px !important;
+}
+.today-deals{
+    padding-top: 6rem;
+}
+
+.today-deals .first-div{
+    border: 1px solid rgba(0, 0, 0, 0.489);
+    border-radius: 30px;
+    padding: 1rem;
+}
+
+.content{
+    padding-top: .5rem;
+}
+
+#pineapple-card{
+    background-color: rgba(119, 125, 130, 0.369);
+    height: 300px ;
+    /* width: 200px; */
+    margin: 0px !important;
+    justify-content: space-between;
+}
+
+#pineapple-sec{
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+
+}
+
+.item-description{
+    font-size: smaller;
+}
+
+.add{
+    background-color: rgba(27, 128, 87, 1);
+    padding: 3px 1.5rem;
+    border-radius: 50px;
+    border: none;
+    font-size: smaller;
+    color: #eee;
+}
+
+
+/* .......................................................... */
+
+.orange-sec{
+    margin-top: 4rem;
+    background-color: #F8C519;
+    overflow: hidden;
+}
+
+#ylw-text-box{
+    padding-left: 7.7rem;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+#ylw-text-box h1{
+    padding-bottom: 1rem;
+    font-size: 40px;
+    font-weight: bolder;
+}
+#ylw-text-box p{
+    width: 80%;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.527);
+}
+
+#ylw-text-box button, .ylow-btn{
+    margin-top: 2rem;
+    padding: 0.5rem 2rem;
+    color: black;
+    border-radius: 40px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #ffd95e;
+}
+
+.orange-sec img{
+    margin-right: -5rem;
+    margin-bottom: -6rem;
+}
+
+
+
+
+/* ............................................................................. */
+
+.NewsBlogs{
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    background-color: aliceblue;
+}
+
+.incomplete{
+    background: none !important;
+}
+
+#ylow-btn-in-card{
+    padding: 1rem 2.5rem;
+    color: black;
+    border-radius: 40px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #efc127;
+}
+
+/* ......................................................................................... */
+.accordition{
+    padding-top: 4rem;
+
+}
+
+
+.accordion-button.collapsed {
+    background-color: rgba(233, 232, 232, 0.982) !important;
+    color: rgb(9, 9, 9) !important;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 20px !important;
+}
+
+.accordion-item{
+    border-radius: 20px !important;
+}
+
+#accordionFlushExample{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.accordion-button  {
+    background-color: rgba(27, 128, 87, 1) !important;
+    color: white !important;
+    border: none !important;
+    margin-top: .8rem;
+    height: 80px;
+    border-radius: 20px 20px 0px 0px !important;
+
+}
+.accordion-collapse{
+    background-color: rgba(27, 128, 87, 1) !important;
+    color: white;
+    border-radius: 0px 0px 20px 20px !important;
+}
+/* ....................................................................................... */
+
+.order-managmnt{
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+}
+
+/* ............................................................................................ */
+
+.marginlss-img{
+    padding-top: 1rem;
+}
+
+.marginlss-img img{
+    height: 230px;
+}
+/* ...................................................................... */
+
+.newsletter{
+    padding-top: 3rem;
+}
+
+.newsletter .container .subscribe{
+    width: 70%;
+    font-size: 50px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.newsletter .container .subscribe .bold{
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+#email-input{
+    background: none;
+    border: 1px solid black;
+    border-radius: 50px;
+    height: 60px;
+    width: 350px;
+    max-width: 60%;
+}
+
+#subscribe-btn{
+    border-radius: 50px;
+    height: 60px;
+    width: 150px;
+    background-color: #F8C519; 
+    border: none;
+    margin-left: 1rem;
+    max-width: 25%;
+
+}
+
+
+#suscribe-div{
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.fa ,.fa-regular{
+    font-size: 44px;
+    padding-right: 1rem;
+    color: rgba(27, 128, 87, 1);
+
+}
+
+footer{
+    margin-top: 2rem;
+    background-color: rgba(27, 128, 87, 1);
+    color: #eee;
+    font-weight: bold;
+    padding: 20rem 0rem 2rem 0rem;
+}
+
+footer span{
+    color: #F8C519;
+}

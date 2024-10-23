@@ -1,0 +1,519 @@
+@media only screen and  (max-width:768px){
+    header{
+        text-align: center;
+    }
+
+
+    .logo{
+        height: 60px;
+        width: 60px;
+        margin-top: -2.5rem;
+    }
+
+    #icons{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: -2rem !important;
+        width: 100%;
+    }
+    .navbar-toggler{
+        border: none !important;
+    }
+
+    #toggler-div{
+        width: fit-content;
+        margin-left: auto;
+    }
+    
+    
+    /* /............................... */
+    
+    
+    #smallscreen-drop{
+        display: inline !important;
+    }
+
+    .dropdown_with_search{
+        width: 90%;
+        margin-top: 1rem !important;
+    }
+    
+    
+    
+    select, input{
+        font-size: x-small !important;
+        height: 35px !important;
+
+    }
+    
+    select{
+        width: 25% !important;
+    }
+    
+    
+    .container_search input{
+        width: 80% !important; 
+    }
+
+    
+/* /............................... */
+.hero{
+    padding-bottom: 0rem !important;
+    padding-top: 1rem !important;
+}
+
+
+.inline-div{
+    justify-content: center;
+    padding-top: 2rem !important;
+}
+
+.hero h1{
+    padding-top: 2rem !important;
+    text-align: center;
+}
+
+.shop-btn{
+    font-size: 14px !important;
+    font-weight: 600 !important;
+}
+
+
+#hero-img{
+    position: relative !important;
+}
+
+/* ..................................................... */
+.sec-section{
+    padding-bottom: 3rem !important;
+}
+.third-sec{
+    padding: 0rem 0rem !important;
+}
+.box-img{
+    max-height: 200px;
+}
+.third-sec-first-div , .third-sec-sec-div{
+    padding: 1rem 0rem 1rem 1rem !important;
+}
+
+
+.third-sec-sec-div{
+    margin-top: 2rem;
+}
+
+
+.shop-now{
+    padding: 0.5rem 1.5rem !important;
+}
+
+
+/* ..................................................... */
+#featured-card-id{
+    display: block !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fourth-sec{
+    padding: 2rem 0rem !important;
+    margin-top: 3rem;
+}
+
+.fourth-sec button{
+    padding: .5rem 1rem !important;
+    font-size: 12px !important;
+}
+.card{
+    width: 60%;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.fourth-sec button{
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+}
+
+.fourth-sec h6 , .fourth-sec h1{
+    text-align: center;
+}
+
+/* ..................................................... */
+
+.img-background{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-background2{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.fifth-sec .center-div-countdown{
+    background-color: aliceblue;
+    margin: 1rem 1rem;
+}
+
+
+.display-4{
+    font-size: large !important;
+    font-weight: 600 !important;
+}
+
+.fifth-sec .card{
+    width: 90%;
+    height: fit-content;
+}
+
+#top-orange{
+    margin-left: -23rem !important;
+}
+
+#bottom-orange{
+    margin-right: -23rem !important;
+}
+
+/* .......................................................... */
+
+.today-deals{
+    padding-top: 6rem;
+}
+.center-sm-text{
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.today-deals .first-div{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5rem !important;
+}
+#pineapple-card{
+    background-color: rgba(119, 125, 130, 0.369);
+    height: 300px ;
+    width: 95% !important;
+}
+
+
+/* .......................................................... */
+
+.orange-sec{
+    margin-top: 4rem;
+    background-color: #F8C519;
+    overflow: hidden;
+}
+
+#ylw-text-box{
+    padding-left: 0rem !important;
+    padding-top: 3rem;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+#ylw-text-box h1{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+#ylw-text-box p{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ylw-text-box button, .ylow-btn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.orange-sec img{
+    max-height: 400px;
+}
+
+
+#ylow-btn-in-card{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#marginless-img{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* ...................................................................... */
+
+.newsletter{
+    padding-top: 3rem;
+}
+
+.newsletter .container .subscribe{
+    width: 70%;
+    font-size: 28px !important;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.newsletter .container .subscribe .bold{
+    font-weight: bolder;
+    font-size: 28px !important;
+}
+
+
+
+#subscribe-btn{
+    height: 30px !important;
+    width: 100px !important;
+    background-color: #F8C519; 
+    margin-left: .5rem !important;
+
+    font-size: smaller !important;
+
+}
+
+
+#suscribe-div{
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+}
+
+/* ....................................................................................
+.......................................................................................
+.......................................................................................
+.......................................................................................
+......................................................................... */
+
+/* Between 700px and 1000px */
+@media (769px <= width <= 1000px) {
+    nav{
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+    }
+    .logo{
+        height: 60px;
+        width: 60px;
+        margin-top: -2.5rem;
+        position: absolute;
+        top: 5;
+    }
+
+    #icons{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: -2rem !important;
+        width: 100%;
+    }
+    .navbar-toggler{
+        border: none !important;
+    }
+
+    #toggler-div{
+        margin-left: auto;
+    }
+     /* /............................... */
+    
+    
+     #smallscreen-drop{
+        display: inline !important;
+    }
+
+    .dropdown_with_search{
+        width: 90%;
+        margin-top: 1rem !important;
+        margin-left: -4rem !important;
+
+    }
+    
+    
+    
+    select, input{
+        font-size: small !important;
+        height: 35px !important;
+
+    }
+    
+    select{
+        width: 35% !important;
+    }
+    
+    
+    .container_search input{
+        width: 80% !important; 
+    }
+
+   
+/* /............................... */
+.hero{
+    padding-bottom: 0rem !important;
+    padding-top: 1rem !important;
+}
+
+
+.inline-div{
+    justify-content: center;
+    padding-top: 2rem !important;
+}
+
+.hero h1{
+    padding-top: 2rem !important;
+    text-align: center;
+}
+
+.shop-btn{
+    font-size: 14px !important;
+    font-weight: 600 !important;
+}
+
+
+#hero-img{
+    position: relative !important;
+}
+
+/* ..................................................... */
+
+.fourth-sec{
+    padding: 2rem 0rem !important;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+#featured-card-id{
+    display: block !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fourth-sec button{
+    padding: .5rem 1rem !important;
+    font-size: 12px !important;
+}
+
+.featured-card{
+    width: 80% !important;
+}
+/* .................................................... */
+.fifth-sec .center-div-countdown{
+    background-color: aliceblue;
+    margin: 1rem 0rem;
+}
+
+
+.display-4{
+    font-size: small !important;
+    font-weight: 600 !important;
+}
+
+.fifth-sec .card{
+    width: 100% !important;
+    height: fit-content;
+}
+
+#top-orange{
+    margin-left: -23rem !important;
+}
+
+#bottom-orange{
+    margin-right: -23rem !important;
+}
+
+
+/* .......................................................... */
+
+.orange-sec{
+    margin-top: 4rem;
+    background-color: #F8C519;
+    overflow: hidden;
+}
+
+#ylw-text-box{
+    padding-left: 0rem !important;
+    padding-top: 3rem;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+#ylw-text-box h1{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+#ylw-text-box p{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ylw-text-box button, .ylow-btn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.orange-sec img{
+    max-height: 400px;
+}
+
+
+
+
+#marginless-img{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* ...................................................................... */
+
+.newsletter{
+    padding-top: 3rem;
+}
+
+.newsletter .container .subscribe{
+    width: 70%;
+    font-size: 28px !important;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.newsletter .container .subscribe .bold{
+    font-weight: bolder;
+    font-size: 28px !important;
+}
+
+
+
+#subscribe-btn{
+    height: 30px !important;
+    width: 100px !important;
+    background-color: #F8C519; 
+    margin-left: .5rem !important;
+
+    font-size: smaller !important;
+
+}
+
+
+#suscribe-div{
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+
+}
