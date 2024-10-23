@@ -99,7 +99,9 @@ select{
     background-color: aliceblue;
     padding-bottom: 3rem;
     padding-top: 3rem;
+    overflow: hidden !important;
 }
+
 .round,.round-l{
     background-color: #F8C519;
     height: 50px;
@@ -171,6 +173,7 @@ select{
 #hero-img{
     position: absolute;
     max-height: 480px;
+    right: 0.5rem;
 }
 
 /* .............................................................. */
